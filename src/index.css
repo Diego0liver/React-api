@@ -5,9 +5,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, rgb(100, 142, 180) , rgb(52, 43, 105));
+  display: block;
+  
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+li{
+  list-style: none;
+}
+.img-time{
+  width: 70px;
+  height: 70px;
+}
+.tamanho{
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  margin: 150px;
+}
+.center{
+  text-align: center;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, rgb(91, 125, 156) , rgb(52, 43, 105));
+}
+.title{
+  color: rgb(255, 255, 255);
+}
+.imgLigarLoc{
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  box-shadow: 8px 8px;
+}
+.textDesc{
+  margin-top: -200px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  color: aliceblue;
+  
+}
+.cont{
+  display: flex;
+  justify-content: space-between;
+}
+.conteiner-card{
+  display: flex;
+  justify-content: center;
+}
+.header-card{
+  color: aliceblue;
+  background-image: linear-gradient(to right, rgb(100, 142, 180) , rgb(52, 43, 105));
+}
+.color-corpo{
+  background-color: rgba(255, 255, 255, 0.788);
 }
